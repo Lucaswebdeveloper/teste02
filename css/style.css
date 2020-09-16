@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+}
+main{
+    width:100%;
+    height: auto;
+    background-color: white;
+    
+    padding-right: 30px;
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    
+    
+    
+    
+}
+h1{
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 10px;
+   
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+h4{
+    margin-top: 30px;
+    
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color:  #122631;
+    
+}
+h5{
+    margin-top: 10px;
+    text-align: center;
+}
+ul li{
+    text-align: start;
+}
+
+#cabecario{
+    
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+}
+
+#fundo{
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#imgLogo{
+    width: 250px;
+    height: auto;
+    
+
+    
+
+    
+   
+    
+  
+    
+}
+#logotipo{
+    
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 60px;
+
+ 
+
+
+}
+
+
+#container{
+    background-image: linear-gradient(to bottom, #122631, #388482, #44bab1);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: auto;
+    
+   
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+
+
+}
+#conteudoCursos{
+    background-color: #122631;
+    margin-top: 30px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 5px 5px 5px #44bab1;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+#vetor_1{
+    width: 400px;
+    height: auto;
+
+
+}
+#celular_vetor{
+    width: 350px;
+    height: auto;
+}
+.txt_1{
+  
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+#chamadaCliente{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    margin-right: 10px;
+    background-color: #4DC6BD;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+    #iconeYouTube{
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+
+#textLista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+}
+
+#vetorJardim{
+    width: 500px;
+    height: auto;
+
+}
+
+#icone{
+     background-color: #f73e8a;
+     box-shadow: 5px 5px 5px #122631;
+     border-radius: 20px 20px 20px 20px;
+     width: 400px;
+     height: 200px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     color:  #122631;
+
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+button{
+    width: 150px;
+    height: 70px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+    
+}
+button :hover{
+    background-color: #122631;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+
+#cabecario{
+    background-color:  #388482;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+  /*abre-ipad*/
+  @media screen and (max-width: 1200px) {
+    .box {
+        width: 40%;
+    }
+   
+  
+  /*fecha-ipad*/
+
+
+    /*abre-desktop*/
+
+    @media screen and (max-width: 600px) {
+        .box {
+            width: 40%;
+        }
+        
+
+    /*fecha-desktop*/
+    }
+}
